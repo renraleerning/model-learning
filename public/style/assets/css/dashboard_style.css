@@ -1,0 +1,81 @@
+body{
+    font-family: 'Karla';
+    background: rgb(20,70,168);
+    background: linear-gradient(13deg, rgba(20,70,168,1) 0%, rgba(169,242,213,1) 100%);
+}
+
+.pagination{
+    padding-left: 20px;
+}
+
+.page-link{
+    color: #207a84;
+}
+
+.tabel-materi{
+    margin-left: 25%;
+    width: 55%;
+    height: auto;
+}
+
+.table td, .table th {
+    border-top: 1px solid #e2e5e8;
+    white-space: inherit;
+    padding: 1.05rem 0.75rem;
+}
+
+table{
+    table-layout: fixed;
+}
+
+.video-materi{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.flash-materi{    
+    display: block;
+    margin: 40px auto;
+}
+
+.tombol-submit{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.btn-upload{
+    width: 100%;
+    white-space: inherit;
+    border-radius: 20px;
+    border: solid 1px #8f9697;
+    padding: 10px;
+}
+
+.btn-upload-submit{
+    background: rgb(64,170,167);
+    background: linear-gradient(13deg, rgba(64,170,167,1) 0%, rgba(169,242,213,1) 100%);
+    border: 0px;
+    border-radius: 20px;
+}
+
+.btn-upload-submit:hover{
+    background: #207a8400;
+    border: solid 1px rgb(64,170,167);
+    border-radius: 20px;
+    color: rgb(64,170,167);
+}
+
+.logo{
+    height: 90%;
+    width: auto;
+}
+
+.logos{
+    height: 45px;
+    width: auto;
+}

@@ -1,0 +1,40 @@
+.table-rangkum{
+    border-color: rgb(119, 119, 119);
+    counter-reset: row-num -1;
+}
+
+.table-rangkum tr{
+    counter-increment: row-num;
+}
+
+.table-rangkum tr td:first-child::before {
+    content: counter(row-num) ". ";
+}
+
+.table-rangkum th{
+    background-color: rgb(232, 233, 231);
+}
+
+.btn-rangkum{
+    float : right;
+    margin-left: 10px;
+}
+
+.notif {
+    color: white;
+    text-decoration: none;
+    padding: 0px 0px;
+    position: relative;
+    display: inline-block;
+}
+
+.notif .badge {
+    position: absolute;
+    top: 5px;
+    right: 3px;
+    width: 11px;
+    height: 11px;
+    border-radius: 120%;
+    background:#ff7675;
+    color: white;
+}
