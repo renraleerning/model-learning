@@ -32,7 +32,7 @@
                     </div>
                     <div class="card-body">
 
-                        <p style="font-size: 12pt">	Haiii nama_siswa, pada menu materi DDL dan DML ini akan mencakup
+                        <p style="font-size: 12pt">	Haiii {{ Auth::user()->nama }}, pada menu materi DDL dan DML ini akan mencakup
                             beberapa materi, </br>diantaranya :</p>
                             <ol type="1">
                                 <li> Type data pada mysql </li>
